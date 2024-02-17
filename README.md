@@ -1,6 +1,6 @@
-### Note: This project is meant solely for education and my self-learning of core web development concepts by building a full-scale web application.
+##### **Note:** This project is meant solely for education and self-learning of core web development concepts by building a full-scale web application.
 
-## Invoicy - Invoices made easy!
+# Invoicy - Invoices made easy!
 
 Invoicy is an invoice management full-stack web application. 
 
