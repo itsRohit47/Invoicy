@@ -7,7 +7,7 @@ Invoicy is an invoice management full-stack web application.
 **Techstack:**
 
 Frontend - Next Js, Tailwind CSS <br>
-Backend - Vercel Database <br>
+Backend - Postgres (by vercel) <br>
 Deployed on Vercel <br>
 
 Referred from https://nextjs.org/learn/dashboard-app
