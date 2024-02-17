@@ -1,5 +1,13 @@
-## Next.js App Router Course - Starter
+### Note: This project is meant solely for education and my self-learning of core web development concepts by building a full-scale web application.
 
-This is the starter template for the Next.js App Router Course. It contains the starting code for the dashboard application.
+## Invoicy - Invoices made easy!
 
-For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+Invoicy is an invoice management full-stack web application. 
+
+**Techstack:**
+
+Frontend - Next Js, Tailwind CSS
+Backend - Vercel Database
+Deployed on Vercel
+
+Referred from https://nextjs.org/learn/dashboard-app
