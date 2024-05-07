@@ -6,7 +6,7 @@ export default function TechStack() {
       <div className="font-myfont text-4xl font-bold">
         Tech Stack for Invoicy
       </div>
-      <div className="mb-10 text-base text-gray-600 max-w-4xl mx-auto">
+      <div className="mx-auto mb-10 max-w-4xl text-base text-gray-600">
         Explore the technology behind Invoicy with our curated selection of
         cutting-edge tools and frameworks. From Next.js for powerful front-end
         development to TypeScript for robust, type-safe code, our tech stack is

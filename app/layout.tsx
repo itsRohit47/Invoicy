@@ -1,4 +1,10 @@
 import '@/app/ui/global.css';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Invoicy Dashboard',
+  description: 'Rohit Bajaj',
+};
 
 export default function RootLayout({
   children,
