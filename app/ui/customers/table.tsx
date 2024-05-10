@@ -38,13 +38,25 @@ export default async function CustomersTable({
                     <p className="text-xl font-medium">
                       {customer.total_pending}
                     </p>
-                    <p>{customer.total_invoices}</p>
-                    <p>{customer.total_pending}</p>
+                    <p>
+                      {customer.total_invoices}{' '}
+                      <span className="text-sm font-semibold text-gray-500">
+                        {' '}
+                        total invoices
+                      </span>
+                    </p>
+                    <p>
+                      {customer.total_paid}{' '}
+                      <span className="text-sm font-semibold text-gray-500">
+                        {' '}
+                        total paid
+                      </span>
+                    </p>
                   </div>
-                  <div className="flex justify-end gap-2">
+                  {/* <div className="flex justify-end gap-2">
                     <UpdateCustomer id={customer.id} />
                     <DeleteCustomer id={customer.id} />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}
@@ -104,10 +116,10 @@ export default async function CustomersTable({
                     {customer.total_pending}
                   </td>
                   <td className="whitespace-nowrap py-3 pl-6 pr-3">
-                    <div className="flex justify-end gap-3">
+                    {/* <div className="flex justify-end gap-3">
                       <UpdateCustomer id={customer.id} />
                       <DeleteCustomer id={customer.id} />
-                    </div>
+                    </div> */}
                   </td>
                 </tr>
               ))}

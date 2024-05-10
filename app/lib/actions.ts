@@ -20,6 +20,16 @@ const FormSchema = z.object({
   date: z.string(),
 });
 
+// const CustomerFormSchema = z.object({
+//   customer_name: z.string({
+//     invalid_type_error: 'Please select a customer.',
+//   }),
+
+//   email: z.string({
+//     invalid_type_error: 'Please select an invoice status.',
+//   }),
+// });
+
 // This is temporary until @types/react-dom is updated
 export type State = {
   errors?: {
@@ -137,3 +147,42 @@ export async function authenticate(
     throw error;
   }
 }
+
+// const AddCustomer = CustomerFormSchema.omit({});
+
+// export async function addCustomer(prevState: State, formData: FormData) {
+//   // Validate form using Zod
+//   const validatedFields = AddCustomer.safeParse({
+//     customer_name: formData.get('customer_name'),
+//     email: formData.get('email'),
+//   });
+
+//   // If form validation fails, return errors early. Otherwise, continue.
+//   if (!validatedFields.success) {
+//     return {
+//       errors: validatedFields.error.flatten().fieldErrors,
+//       message: 'Missing Fields. Failed to Add Customer.',
+//     };
+//   }
+
+//   // Prepare data for insertion into the database
+//   const { customer_name, email } = validatedFields.data;
+//   const img_url = '';
+
+//   // Insert data into the database
+//   try {
+//     await sql`
+//       INSERT INTO customers (customer_id, customer_name, email, image_url)
+//       VALUES (${customer_name}, ${customer_name}, ${email}, ${img_url})
+//     `;
+//   } catch (error) {
+//     // If a database error occurs, return a more specific error.
+//     return {
+//       message: 'Database Error: Failed to Add Customer.',
+//     };
+//   }
+
+//   // Revalidate the cache for the invoices page and redirect the user.
+//   revalidatePath('/dashboard/invoices');
+//   redirect('/dashboard/invoices');
+// }
