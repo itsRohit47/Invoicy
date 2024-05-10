@@ -2,7 +2,7 @@ import { TechCard } from './tech-card';
 
 export default function TechStack() {
   return (
-    <div className="techcards m-5 flex flex-col gap-5 rounded-lg border bg-zinc-50 p-24 text-center text-gray-900">
+    <div className="techcards bg-zinc-50 px-4 m-5 flex flex-col gap-5 rounded-lg border py-10 text-center text-gray-900 md:p-32">
       <div className="font-myfont text-4xl font-bold">
         Tech Stack for Invoicy
       </div>

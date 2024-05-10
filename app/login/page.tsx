@@ -3,11 +3,19 @@ import LoginForm from '@/app/ui/login-form';
 
 export default function LoginPage() {
   return (
-    <main className="flex items-center justify-center md:h-screen">
-      <div className="relative mx-auto flex w-full max-w-[400px] flex-col space-y-2.5 p-4 md:-mt-32">
-        <div className="flex h-max w-full items-center justify-center rounded-lg bg-gray-100 p-10">
-          <div className="w-32 text-white md:w-36">
+    <main className="techcards flex h-screen items-center justify-center">
+      <div className="relative mx-auto flex w-full max-w-[400px] flex-col space-y-2.5 rounded-lg border p-4 shadow-lg ">
+        <div className="h-max w-full rounded-lg border bg-gray-50 p-4">
+          <div className="flex flex-col gap-4">
             <AcmeLogo />
+            <div>To try out, use the following credentials:</div>
+            <div>
+              <strong>email: </strong>rohit@invoicy.com.au
+            </div>{' '}
+            <div>
+              {' '}
+              <strong>pswd: </strong> save_climate
+            </div>
           </div>
         </div>
         <LoginForm />

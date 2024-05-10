@@ -92,7 +92,7 @@ export default function DashboardSkeleton() {
         <CardSkeleton />
         <CardSkeleton />
       </div>
-      <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-4 lg:grid-cols-8">
+      <div className="mt-6 grid lg:grid-cols-2 gap-6">
         <RevenueChartSkeleton />
         <LatestInvoicesSkeleton />
       </div>

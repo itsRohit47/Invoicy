@@ -3,10 +3,10 @@ import { CheckIcon } from '@heroicons/react/24/outline';
 export default function Landing3() {
   return (
     <div className="group m-5 overflow-hidden rounded-lg ">
-      <section className=" bg-zinc-900 leading-8 text-gray-100 transition duration-300 group-hover:scale-105 group-hover:bg-zinc-950">
-        <div className="p-4 md:p-32">
+      <section className=" bg-gray-50 leading-8 text-gray-900 transition duration-300 md:group-hover:scale-105">
+        <div className="px-4 py-10 md:p-32">
           <div className="grid grid-cols-1 items-center gap-20 md:grid-cols-4">
-            <div className="col-span-2 rotate-2 rounded-2xl border shadow-xl transition duration-300 group-hover:rotate-0 group-hover:scale-105 group-hover:shadow-2xl">
+            <div className="col-span-2 rotate-2 rounded-2xl border shadow-xl transition duration-300 group-hover:rotate-0 group-hover:shadow-2xl md:group-hover:scale-105">
               <Image
                 src="/land2.png"
                 alt="Invoices Page Demo"
@@ -16,7 +16,7 @@ export default function Landing3() {
               />
             </div>
             <div className="col-span-2 flex flex-col gap-5">
-              <h2 className="mb-4 font-myfont text-4xl font-bold tracking-widest">
+              <h2 className="mb-4 font-myfont text-3xl  font-bold tracking-widest md:text-4xl">
                 Efficient Client Management
               </h2>
               <p className="mb-4 text-base">

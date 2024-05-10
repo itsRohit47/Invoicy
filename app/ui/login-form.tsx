@@ -14,8 +14,8 @@ export default function LoginForm() {
   const [errorMessage, dispatch] = useFormState(authenticate, undefined);
 
   return (
-    <form action={dispatch} className="space-y-3">
-      <div className="flex-1 rounded-lg bg-gray-50 px-6 pb-4 pt-8">
+    <form action={dispatch} className="rounded-lg border">
+      <div className="flex flex-col justify-center rounded-lg bg-gray-50 p-4">
         <h1 className={`mb-3 text-2xl`}>Please log in to continue.</h1>
         <div className="w-full">
           <div>

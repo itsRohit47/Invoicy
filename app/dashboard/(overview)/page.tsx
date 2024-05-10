@@ -19,8 +19,8 @@ export default async function Page() {
   } = await fetchCardData();
 
   return (
-    <main>
-      <h1 className={` mb-4 text-xl md:text-2xl`}>Dashboard</h1>
+    <main className="">
+      <h1 className={`mb-4 w-full text-xl md:text-2xl`}>Dashboard</h1>
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         <Card title="Collected" value={totalPaidInvoices} type="collected" />
         <Card title="Pending" value={totalPendingInvoices} type="pending" />
@@ -31,7 +31,7 @@ export default async function Page() {
           type="customers"
         />
       </div>
-      <div className="mt-6 grid grid-cols-2 gap-6">
+      <div className="mt-6 grid gap-6 lg:grid-cols-2">
         <Suspense fallback={<RevenueChartSkeleton />}>
           <RevenueChart />
         </Suspense>
