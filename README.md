@@ -1,4 +1,4 @@
-As an aspiring full-stack software developer, I spearheaded the development of an innovative Invoice Tracking Software leveraging cutting-edge technologies for seamless functionality and user experience.
+Invoicy is a full stack invoicing software built using next.js, tailwind css, node.js, postgresSQL, and deployed on  cloud infrastructure.
 
 𝐊𝐞𝐲 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬:
 
@@ -19,5 +19,3 @@ As an aspiring full-stack software developer, I spearheaded the development of a
 
 𝐎𝐮𝐭𝐜𝐨𝐦𝐞:
 This project not only honed my technical proficiency but also provided valuable experience in developing scalable and user-centric software solutions. It showcases my ability to conceptualize, design, and execute projects while adhering to best practices and industry standards.
-
-Looking forward to leveraging my expertise in full-stack development to contribute to dynamic projects and teams.
